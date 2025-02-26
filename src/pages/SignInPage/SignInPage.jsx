@@ -38,10 +38,10 @@ const SignInPage = () => {
   };
 
   return (
-    <div className="bg-[url('https://online.umt.edu.pk/assets/img/backgrounds/1.jpg')] bg-no-repeat bg-cover w-[100%] h-[100vh] flex justify-center overflow-y-scroll">
+    <div className="bg-[url('https://online.umt.edu.pk/assets/img/backgrounds/1.jpg')] bg-no-repeat bg-cover w-[100%] m-h-[100vh] flex justify-center overflow-y-scroll px-5">
       <form
         onSubmit={handleSubmit}
-        className="bg-white/70 border-t-6 border-[#2978A5] p-5 flex flex-col gap-3 my-10 min-h-[100vh]"
+        className="bg-white/70 border-t-6 border-[#2978A5] p-5 flex flex-col gap-3 my-10 h-[100vh]"
       >
         <div className="w-34 mx-auto">
           <img
@@ -72,7 +72,7 @@ const SignInPage = () => {
             </svg>
           </span>
           <input
-            className="border-[0.5px] w-[100%] text-[28px] font-[500] opacity-[0.6] py-5 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
+            className="border-[0.5px] w-[100%] text-[28px] font-[500] opacity-[0.6] lg:py-5 py-3 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
             type="text"
             placeholder="UMT Student ID / Email"
             value={email}
@@ -86,7 +86,7 @@ const SignInPage = () => {
             <IoLockClosedOutline size={30} />
           </span>
           <input
-            className="border-[0.5px] w-[100%] text-[28px] font-[500] opacity-[0.6] py-5 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
+            className="border-[0.5px] w-[100%] text-[28px] font-[500] opacity-[0.6] lg:py-5 py-3 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
             type="password"
             placeholder="Password"
             value={password}
@@ -102,7 +102,7 @@ const SignInPage = () => {
               <IoLockClosedOutline size={30} />
             </span>
             <input
-              className="border-[0.5px] w-[100%] text-[28px] font-[500] opacity-[0.6] py-5 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
+              className="border-[0.5px] w-[100%] text-[28px] font-[500] opacity-[0.6] lg:py-5 py-3 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
               type="text"
               placeholder="Code"
               value={code}
@@ -113,7 +113,7 @@ const SignInPage = () => {
           {/* Randomly Generated Code (Read-Only) */}
           <div className="relative flex items-center lg:w-[200px] mx-auto text-center">
             <input
-              className="border-[3px] border-[#0043A8] text-[#0043A8] w-[100%] text-[28px] font-[700] opacity-[0.6] py-5 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
+              className="border-[3px] border-[#0043A8] text-[#0043A8] w-[100%] text-[28px] font-[700] opacity-[0.6] lg:py-5 py-3 px-3 pl-12 bg-white rounded-sm focus:outline-none focus:ring-2 focus:ring-white focus:border-none transition duration-300 all ease"
               type="text"
               value={randomValue}
               readOnly

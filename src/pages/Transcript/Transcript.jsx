@@ -1,4 +1,5 @@
 import React from "react";
+import image from "../../assets/Ayan.jpeg";
 
 const AcademicTranscript = () => {
   return (
@@ -22,6 +23,7 @@ const AcademicTranscript = () => {
       <div className="mb-4 flex justify-between">
         <div className="font-semibold">School of Systems and Technology</div>
         <div>Degree: BS Computer Science</div>
+        <img style={{ width: "100px" }} src={image} alt="Ayan Rasool" />
       </div>
       {/* Student Information */}
       <div className="mb-4">

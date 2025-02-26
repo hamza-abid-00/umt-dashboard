@@ -62,12 +62,12 @@ const Layout = () => {
             text="Dashboard"
             active
           />
-          <SidebarItem Path="/transcript" icon="profile" text="Profile" />
-          <SidebarItem Path="/transcript" icon="courses" text="My Courses" />
+          <SidebarItem Path="/Profile" icon="profile" text="Profile" />
+          <SidebarItem Path="/courses" icon="courses" text="My Courses" />
           <SidebarItem Path="/transcript" icon="transcript" text="Transcript" />
-          <SidebarItem Path="/" icon="feedback" text="Feedback" />
+          <SidebarItem Path="/feedback" icon="feedback" text="Feedback" />
           <SidebarItem
-            Path="/"
+            Path="/request"
             icon="request"
             text="Request"
             hasSubmenu
@@ -80,15 +80,19 @@ const Layout = () => {
             ]}
           />
           <SidebarItem
-            Path="/"
+            Path="/Payments"
             icon="payments"
             text="Payments"
             hasSubmenu
             menuItem={["Payment History", "Pending Fee Voucher"]}
           />
-          <SidebarItem Path="/" icon="roadmap" text="Road Map" />
-          <SidebarItem Path="/" icon="announcements" text="Announcements" />
-          <SidebarItem Path="/" icon="store" text="UMT Store" />
+          <SidebarItem Path="/roadmap" icon="roadmap" text="Road Map" />
+          <SidebarItem
+            Path="/announcements"
+            icon="announcements"
+            text="Announcements"
+          />
+          <SidebarItem Path="/store" icon="store" text="UMT Store" />
         </nav>
       </div>
 
