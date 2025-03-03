@@ -657,6 +657,11 @@ const AcademicTranscript = () => {
               Fall 2024
             </div>
             <div className="overflow-x-auto">
+              <div className="grid grid-cols-3 text-xs mt-1">
+                <div>Cr. Hrs. Earned:3</div>
+                <div>CGPA: 1.53</div>
+                <div>SGPA: 0.90</div>
+              </div>
               <table className="w-full text-xs border border-dashed-collapse">
                 <thead>
                   <tr className="bg-gray-50">
@@ -689,7 +694,7 @@ const AcademicTranscript = () => {
                       3
                     </td>
                     <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
-                      SA
+                      B+
                     </td>
                     <td className="border border-dashed border border-dashed-gray-300 p-1 text-center"></td>
                   </tr>
@@ -704,7 +709,7 @@ const AcademicTranscript = () => {
                       1
                     </td>
                     <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
-                      SA
+                      B-
                     </td>
                     <td className="border border-dashed border border-dashed-gray-300 p-1 text-center"></td>
                   </tr>
@@ -719,7 +724,7 @@ const AcademicTranscript = () => {
                       3
                     </td>
                     <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
-                      SA
+                      B-
                     </td>
                     <td className="border border-dashed border border-dashed-gray-300 p-1 text-center"></td>
                   </tr>
@@ -776,10 +781,9 @@ const AcademicTranscript = () => {
                   </tr>
                 </tbody>
               </table>
-              <div className="grid grid-cols-2 text-xs mt-1">
+              <div className="grid grid-cols-3 text-xs mt-1">
                 <div>Cr. Hrs. Earned:6</div>
                 <div>CGPA: 1.83</div>
-                <div></div>
                 <div>SGPA: 1.57</div>
               </div>
             </div>
