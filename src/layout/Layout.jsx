@@ -33,17 +33,17 @@ const Layout = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-grey-100">
+    <div className="flex h-screen bg-grey-100">
       {/* Compact Sidebar */}
       <div
         className={`
-          md:relative fixed top-0 left-0 h-full bg-[#383838] 
+          md:relative fixed top-0 left-0 h-screen overflow-y-scroll no-scrollbar bg-[#383838] 
           flex flex-col items-center 
           transition-all duration-300 z-40 m-2 text-center
           ${
             isMobile
               ? sidebarOpen
-                ? "w-20 shadow-lg px-5"
+                ? "w-24 shadow-lg px-5"
                 : "w-0 overflow-hidden"
               : "w-28"
           }
@@ -289,7 +289,7 @@ const Layout = () => {
       <div
         className={`
           flex-1 transition-all duration-300
-          ${isMobile && sidebarOpen ? "ml-22" : "ml-0"}
+          ${isMobile && sidebarOpen ? "ml-26" : "ml-0"}
         `}
       >
         {/* Top Navigation */}
