@@ -37,7 +37,8 @@ const Layout = () => {
       {/* Compact Sidebar */}
       <div
         className={`
-          md:relative fixed top-0 left-0 h-screen overflow-y-scroll no-scrollbar bg-[#383838] 
+          no-scrollll
+          md:relative fixed top-0 left-0 h-screen overflow-y-scroll bg-[#383838] 
           flex flex-col items-center 
           transition-all duration-300 z-40 m-2 text-center
           ${
