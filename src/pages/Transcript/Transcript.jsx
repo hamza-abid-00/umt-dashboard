@@ -4,7 +4,7 @@ import image from "../../assets/Ayan.jpeg";
 const AcademicTranscript = () => {
   return (
     <div className="h-screen">
-      <div className="lg:max-w-5xl w-[100%] p-6 font-sans lg:h-screen h-[50vh] overflow-scroll bg-black/10 m-2 shadow-xl shadow-grey/80">
+      <div className="lg:max-w-5xl w-[100%] p-6 font-sans lg:h-screen h-[50vh] overflow-scroll bg-gray-100 m-2 shadow-xl shadow-grey/80">
         {/* Header */}
         <h1 className="text-2xl font-bold text-blue-800 mb-6">TRANSCRIPT</h1>
 
@@ -610,7 +610,7 @@ const AcademicTranscript = () => {
                         B+
                       </td>
                       <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
-                        9
+                        9.9
                       </td>
                     </tr>
                     <tr>
@@ -627,7 +627,7 @@ const AcademicTranscript = () => {
                         B-
                       </td>
                       <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
-                        8.1
+                        2.7
                       </td>
                     </tr>
                     <tr>
@@ -695,15 +695,15 @@ const AcademicTranscript = () => {
                         B+
                       </td>
                       <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
-                        9
+                        9.9
                       </td>
                     </tr>
                   </tbody>
                 </table>
                 <div className="grid grid-cols-3 text-xs mt-1">
                   <div>Cr. Hrs. Earned:16</div>
-                  <div>CGPA: 1.83</div>
-                  <div>SGPA: 1.57</div>
+                  <div>CGPA: 2.79</div>
+                  <div>SGPA: 44.7</div>
                 </div>
               </div>
             </div>
