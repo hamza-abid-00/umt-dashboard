@@ -702,8 +702,8 @@ const AcademicTranscript = () => {
                 </table>
                 <div className="grid grid-cols-3 text-xs mt-1">
                   <div>Cr. Hrs. Earned:16</div>
-                  <div>CGPA: 2.79</div>
-                  <div>SGPA: 44.7</div>
+                  <div>CGPA: 2.3</div>
+                  <div>SGPA: 2.79</div>
                 </div>
               </div>
             </div>
@@ -713,12 +713,12 @@ const AcademicTranscript = () => {
         {/* Summary */}
         <div className="border border-dashed border border-dashed-gray-300 p-2 mb-4">
           <div className="grid grid-cols-3 text-xs">
-            <div>Credit Hours Earned: 29</div>
-            <div>Credit Hours for GPA: 32</div>
-            <div>Total Grade Points: 58.60</div>
+            <div>Credit Hours Earned: 39</div>
+            <div>Credit Hours for GPA: 39</div>
+            <div>Total Grade Points: 98.10</div>
             <div></div>
             <div></div>
-            <div>CGPA: 1.83 / 4.00</div>
+            <div>CGPA: 2.51 / 4.00</div>
           </div>
         </div>
 
