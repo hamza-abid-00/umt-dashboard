@@ -707,6 +707,147 @@ const AcademicTranscript = () => {
                 </div>
               </div>
             </div>
+            {/* Spring 2025 */}
+            <div className="mb-4">
+              <div className="text-center font-semibold text-[10px] p-1">
+                Spring 2025
+              </div>
+              <div className="overflow-x-auto">
+                <div className="grid grid-cols-3 text-xs mt-1">
+                  <div>Cr. Hrs. Earned:3</div>
+                  <div>CGPA: 1.53</div>
+                  <div>SGPA: 0.90</div>
+                </div>
+                <table className="w-full text-[9px] font-bold border-dashed-collapse">
+                  <tbody>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        CS458
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Data Mining
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        3
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        B+
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        9.9
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        MA230
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Differential Equations
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        3
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        B+
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        9.9
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        CS3045
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Compiler Construction
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        3
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        B-
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        8.1
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        CS2032L
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Computer Organization and Assembly Language (Lab)
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        1
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        B-
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        2.7
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        CS2032
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Computer Organization and Assembly Language
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        3
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        A-
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        11.1
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        CS3044
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Analysis of Algorithms
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        3
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        C
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        6
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        EN220
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1">
+                        Research Paper Writing and presentation
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        3
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        B+
+                      </td>
+                      <td className="border border-dashed border border-dashed-gray-300 p-1 text-center">
+                        9.9
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div className="grid grid-cols-3 text-xs mt-1">
+                  <div>Cr. Hrs. Earned:19</div>
+                  <div>CGPA: 3.19</div>
+                  <div>SGPA: 2.9</div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -718,7 +859,7 @@ const AcademicTranscript = () => {
             <div>Total Grade Points: 98.10</div>
             <div></div>
             <div></div>
-            <div>CGPA: 2.51 / 4.00</div>
+            <div>CGPA: 2.9 / 4.00</div>
           </div>
         </div>
 
